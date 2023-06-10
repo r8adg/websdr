@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url("openwebrx-header.css");
+@import url("openwebrx-globals.css");
+
+
+html, body {
+	overflow: hidden;
+}
+
+select
+{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+@font-face {
+    font-family: 'roboto-mono';
+    src: url('../fonts/RobotoMono-Regular.woff2') format('woff2'),
+         url('../fonts/RobotoMono-Regular.woff') format('woff'),
+         url('../fonts/RobotoMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+font-family: 'roboto-mono';
